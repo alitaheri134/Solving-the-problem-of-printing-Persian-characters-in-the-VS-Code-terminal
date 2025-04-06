@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Python File in IDLE",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/C",
+                "start",
+                "/B",
+                "\"\"",
+                "python",
+                "-m",
+                "idlelib",
+                "-r",
+                "${file}"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "never",
+                "close": true
+            },
+            "options": {
+                "shell": {
+                    "executable": "cmd.exe"
+                }
+            }
+        }
+    ]
+}

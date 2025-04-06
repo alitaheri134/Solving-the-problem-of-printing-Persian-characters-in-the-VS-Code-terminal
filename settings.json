@@ -1,0 +1,32 @@
+{
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'Fira Code', 'IRANSansWeb', monospace",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 20,
+    "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+        "editor.background": "#1e1e1e",
+        "editor.foreground": "#d4d4d4",
+        "sideBar.background": "#252526"
+    },
+    "editor.rulers": [80],
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "python.defaultInterpreterPath": "C:\\Users\\AliTaheri\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "python.terminal.executeInFileDir": false,
+    "python.terminal.launchArgs": [],
+    "debug.internalConsoleOptions": "neverOpen",
+    "terminal.integrated.env.windows": {
+        "PYTHONUNBUFFERED": "1",
+        "PYTHONIOENCODING": "UTF-8"
+    },
+    "files.associations": {
+        "*.py": "python"
+    },
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.minimap.sectionHeaderFontSize": 14,
+    "code-runner.executorMap": {
+        "python": "python -u"
+    },
+    "workbench.startupEditor": "none"
+}
